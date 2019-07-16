@@ -1,0 +1,192 @@
+body {
+  font-family: neuropol x rg;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  color: #333;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  padding: 0;
+  background-image: url('images/pc5.jpg');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'neuropol x rg';
+  src:  url('fonts/neuropol x rg.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ZEROHOUR';
+  src:  url('fonts/ZEROHOUR.ttf') format('truetype');
+}
+section {
+  width: 98%;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(256,256,256,0.9);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+ overflow-x: hidden;
+}
+nav {
+    font-size: 16px;
+    height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+   padding: 10px;
+   position: relative;
+   left: 15px;
+   font-weight: bold;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.menu {
+  padding-left: 20px;
+  display: block;
+}
+.spiynx {
+    text-shadow: 4px 7px 2px #ccc;
+}
+.logo {
+  text-align: center;
+  font-size: 19px;
+}
+.account{
+   text-align: right;
+}
+.dp{
+  width: 40px;
+  height:40px;
+  border-radius: 50px;
+}
+.btns {
+  color: purple;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  width: 50px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+#profile {
+   z-index: 5;
+  display: none;
+  background-color: rgba(256, 256,256,0.4);
+  border-radius: 10px 0px 10px 10px;
+  position: absolute;
+      right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 500px;
+    top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.search {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  height: 45px;
+  position: absolute;
+  border-bottom-right-radius:  80px 50px;
+  top: 50px;
+  left: -2px;
+}
+.search input {
+  margin-top: 10px;
+  width: 78%;
+  border: none;
+  font-size: 13px;
+  border-bottom: 2px solid rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.0);
+}
+.content {
+  display: flex;
+}
+.feeds {
+  z-index: 1;
+  background-color: rgba(256,256,256,0.9);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  height: 500px;
+  position: absolute;
+  left: 30px;
+  border-radius: 10px;
+  top: 140px;
+}
+#activity {
+  z-index: 1;
+  top: 116px;
+  left: 50px;
+  opacity: 0.6;
+  order: 1;
+   display: absolute;
+}
+#discovery {
+  order: 2;
+}
+
+#tracker {
+  display: absolute;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 400px;
+   z-index: `10;
+   order: 3;
+}
+
+@media screen and (max-width: 400px){
+  .logo {
+   
+  }
+}
+@media screen and (max-width: 700px) { 
+   .logo {
+     display: none;
+    font-size: 15px;
+    
+  }
+  section {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 0px;
+  }
+  .menu {
+    font-size: 15px;
+    padding-left: 2px;
+  }
+  .btns {
+    margin-top: 5px;
+    box-shadow: inset 0 0 30px hsl(0, 0%, 0%),
+       inset 0 0 70px hsla(0, 0, 0, 1);
+  }
+ 
+  .dp {
+    width: 35px;
+    height: 35px;
+  }
+  nav {
+    width: 100%;
+    margin: 0;
+  }
+  #sidebar {
+    display: none;
+  }
+   #profile {
+    right: 2px;
+  }
+ 
+}
+@media screen and (max-width: 800px) {
+  #sidebar {
+    display: none;
+  }
+  .feeds {
+    left: 10px;
+  }
+  #activity {
+    left: 20px;
+  }
+  #profile {
+    right: 2px;
+  }
+}
