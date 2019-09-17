@@ -1,0 +1,244 @@
+body {
+  font-family: neuropol x rg;
+  height: 100%;
+  width: 100%;
+  color: #333;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  padding: 0;
+    color: rgba(0,0,0,0.8);
+}
+@font-face {
+  font-family: 'neuropol x rg';
+  src:  url('fonts/neuropol x rg.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ZEROHOUR';
+  src:  url('fonts/ZEROHOUR.ttf') format('truetype');
+}
+.header {
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+    background-image: url('images/background_1462755__340.jpg');
+    position: absolute;
+    top: -20px;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header:after {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    content: '';
+    width: 110%;
+    height: 470px;
+    left: 1px;
+    background: inherit;
+    box-shadow: inset 0 0 0 400px rgba(0, 0, 0, 0.1);
+    filter: blur(10px);
+}
+nav {
+   border-radius: 0px 0px 20px 20px;
+   border-bottom: 1px solid rgba(256,256,256,0.5);
+  top: 0px;
+  z-index: 100;
+    font-size: 16px;
+    left: 12px;
+    height: 100px;
+    width: 100%;
+   padding-top: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    position: fixed;
+  width: 100%;
+  height: 50px;
+}
+#logo {
+  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btns {
+  margin-top: -20px;
+  background-color: rgba(256,256,256,0.0);
+      border: 1px solid rgba(0,0,0,0.0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#navBtns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navBtns {
+  font-size: 20px;
+    background-color: rgba(256,256,256,0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border: none;
+}
+.menubtn  {
+  margin-top: 7px;
+  font-size: 20px;
+}
+.Contrarian {
+  margin: auto;
+  font-size: 20px;
+}
+section {
+  overflow: hidden;
+  z-index: 10;
+  width: 100%;
+  position: absolute;
+  border-radius: 30px;
+  height: 8000px;
+  top: 280px;
+  background-color: rgba(256,256,256,1);
+}
+#about {
+  position: absolute;
+  top: 200px;
+}
+#about figcaption {
+  text-align: center;
+  border-radius: 0px 10px 10px 10px;
+  padding: 10px;
+   border: 1px rgba(256,256,256,0.4) solid;
+  margin-top: -90px;
+  margin-left: 90px;
+}
+#about a {
+  width: 30%;
+  color: white;
+ 
+}
+.mypic {
+  top: -50px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  left: 10px;
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+}
+#sectionHeader {
+  overflow: hidden;
+  display: none;
+  justify-content: center;
+  top: -20px;
+  position: relative;
+    height: 400px;
+  width: 100%;
+  background-image: url('images/bee_2984342__340.jpg');
+}
+#sectionHeader h1 {
+  font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-top: 50px;
+  text-align: center;
+  font-size: 23px;
+  border-radius: 7px;
+  margin: auto;
+  background: linear-gradient(rgba(0,0,0,0.0),rgba(131,9,254,0.7));
+  margin-top: 50px;
+  height: 400px;
+  color: white;
+}
+#sectionHeader {
+  animation-duration: 3s;
+}
+.getGoingBtn {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 20px;
+   margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: relative;
+  top: 130px;
+  background: transparent;
+  border: 1px solid rgba(256,256,256,0.5);
+}
+.sectionBody {
+  padding-top: 10px;
+  border-image-source: none;
+  width: 100%;
+}
+.content {
+  color: rgba(0,0,0,0.8);
+  position: relative;
+  left: 0px;
+  right: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Trebuchet MS;
+}
+.content1 {
+  text-align: center;
+}
+.popular {
+  
+  height: 700px;
+  font-weight: bold;
+    font-family: Trebuchet MS;
+}
+.popular h4 {
+  text-align: center;
+  border-radius: 10px;
+  border-bottom: 3px solid #e64298;
+}
+.quote {
+  font-size: 1.2em;
+  color: rgba(0,0,0,0.7);
+}
+.quote span {
+  font-size: 0.8em;
+}
+.PeterThiel {
+  border-radius: 7px;
+  width: 350px;
+}
+p {
+  text-align: left;
+  font-size: 17px;
+}
+.thumbnails {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.suggestions {
+  margin-top: 40px;
+  font-size: 15px;
+  border-bottom: 1px soli rgba(0,0,0,0.3);
+}
+.suggestions figcaption {
+  margin-top: -60px;
+  margin-left: 63px;
+}
+@media screen and (max-width: 700px) { 
+  #about figcaption {
+    width: 90%;
+    margin-left: 70px;
+  }
+  .mypic {
+    width: 50px;
+    height: 50px;
+  }
+  #about  {
+    
+  }
+#logo {
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 800px) {
+ 
+}
